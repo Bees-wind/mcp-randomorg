@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### 3. 配置 API Key
 
-在项目根目录下创建 `.env` 文件，写入：
+在项目根目录/mcp-randomorg下创建 `.env` 文件，写入：
 
 ```
 RANDOM_ORG_API_KEY=Your_random_org_api_key
@@ -71,7 +71,7 @@ python server.py
 
 默认会通过 **stdio** 启动 MCP server，可直接对接 Claude Desktop / MCP Inspector 等 MCP 客户端。
 
-__当前仅支持**stdio**模式__
+__此项目仅支持**stdio**模式__
 
 ## 💻 客户端配置
 
